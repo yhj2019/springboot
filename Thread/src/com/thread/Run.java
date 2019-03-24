@@ -9,6 +9,7 @@ public class Run {
 		Thread thread2 = new Thread(thread);
 		thread1.start();
 		thread2.start();
+		System.out.println("sss");
 		try {
 			Thread.sleep(1000);
 		} catch (InterruptedException e) {
