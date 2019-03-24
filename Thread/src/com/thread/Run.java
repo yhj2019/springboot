@@ -24,6 +24,7 @@ public class Run {
 		}
 
 		System.out.println(thread.getCount());
+		System.out.println("haha");
 	}
 
 }
